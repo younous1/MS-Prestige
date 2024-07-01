@@ -1,0 +1,119 @@
+.gallery15-gallery3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.gallery15-max-width {
+  gap: var(--dl-space-space-threeunits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gallery15-section-title {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: auto;
+  display: flex;
+  max-width: 800px;
+  align-items: center;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+.gallery15-text {
+  text-align: center;
+}
+.gallery15-text1 {
+  text-align: center;
+}
+.gallery15-content {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  max-width: 900px;
+  align-self: center;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: center;
+}
+.gallery15-container {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery15-image1 {
+  width: 100%;
+  height: 340px;
+  align-self: center;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.gallery15-text2 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.gallery15-image2 {
+  width: 100%;
+  height: 340px;
+  align-self: center;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.gallery15-text3 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.gallery15-container1 {
+  gap: var(--dl-space-space-unit);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.gallery15-image3 {
+  width: 100%;
+  height: 340px;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.gallery15-text4 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.gallery15-image4 {
+  width: 100%;
+  height: 340px;
+  border-radius: var(--dl-radius-radius-radius4);
+}
+.gallery15-text5 {
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+@media(max-width: 991px) {
+  .gallery15-content {
+    max-width: 600px;
+    align-items: center;
+    flex-direction: column;
+  }
+  .gallery15-image1 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gallery15-image2 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gallery15-image3 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+  .gallery15-image4 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 400px;
+  }
+}

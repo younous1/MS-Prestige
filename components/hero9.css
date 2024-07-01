@@ -1,0 +1,100 @@
+.hero9-header30 {
+  gap: var(--dl-space-space-twounits);
+  align-items: center;
+  justify-content: center;
+}
+.hero9-image {
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.hero9-container {
+  right: 0px;
+  width: 1200px;
+  bottom: 0px;
+  height: 477px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255,255,255,0.7);
+}
+.hero9-image1 {
+  right: 105px;
+  width: 429px;
+  bottom: 0px;
+  height: 474px;
+  position: absolute;
+  object-fit: cover;
+}
+.hero9-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 586px;
+  height: 314px;
+  display: flex;
+  z-index: 1;
+  position: relative;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero9-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.hero9-text {
+  width: 523px;
+  align-self: flex-start;
+  text-align: left;
+}
+.hero9-text1 {
+  font-size: 1.5em;
+  align-self: flex-start;
+  line-height: 1;
+}
+.hero9-text2 {
+  width: 432px;
+  height: 82px;
+  align-self: flex-start;
+}
+.hero9-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+}
+.hero9-text3 {
+  text-align: center;
+}
+.hero9-text4 {
+  text-align: center;
+}
+@media(max-width: 991px) {
+  .hero9-text {
+    text-align: center;
+  }
+  .hero9-text2 {
+    text-align: center;
+  }
+}
+@media(max-width: 479px) {
+  .hero9-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .hero9-button {
+    width: 100%;
+  }
+  .hero9-button1 {
+    width: 100%;
+  }
+}
