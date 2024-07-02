@@ -288,7 +288,7 @@
   gap: var(--dl-space-space-twounits);
   width: 100%;
   display: flex;
-  max-width: 900px;
+  max-width: 90%;
   align-self: center;
   align-items: center;
   flex-shrink: 0;
