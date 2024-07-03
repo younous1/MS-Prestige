@@ -165,7 +165,7 @@
   background-color: var(--dl-color-theme-primary2);
 }
 .thq-heading-1 {
-  font-size: 48px;
+  font-size: 45px;
   font-family: Merriweather;
   font-weight: 700;
   line-height: 1.5;
@@ -248,7 +248,7 @@
   flex-direction: column;
 }
 .thq-flex-row {
-  gap: var(--dl-space-space-twounits);
+  gap: 50px;
   display: flex;
   overflow: hidden;
   position: relative;
