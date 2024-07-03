@@ -248,7 +248,7 @@
   flex-direction: column;
 }
 .thq-flex-row {
-  gap: 50px;
+  gap: 150px;
   display: flex;
   overflow: hidden;
   position: relative;
